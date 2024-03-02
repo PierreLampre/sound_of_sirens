@@ -1,0 +1,21 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+#jumbotronjawn {
+    width: 100vw;
+    height: clamp(150px, 30vw, 464px);
+    object-fit: cover;
+}
